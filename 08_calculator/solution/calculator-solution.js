@@ -11,7 +11,7 @@ const sum = function (array) {
 };
 
 const multiply = function (array) {
-  return array.reduce((product, current) => product * current)
+  return array.reduce((product, current) => product * current);
 };
 
 const power = function (a, b) {
@@ -44,3 +44,4 @@ module.exports = {
   power,
   factorial,
 };
+console.log(multiply([]));
